@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Python', 'PyTorch', 'LangChain', 'React', 'Node.js', 'AWS/GCP'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +135,25 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Ajin and I'm passionate about building Software, AI-powered systems
+              and data solutions. I love solving math problems (especially calculus) and that led me
+              to software engineering, machine learning, data science, and AI!
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Fast-forward to today, and I've had the privilege of working at{' '}
+              <a href="https://www.aarp.org/">AARP</a> as a Machine Learning/Data Science Co-op,{' '}
+              <a href="https://www.northeastern.edu/">Northeastern University</a> as an AI Research
+              Assistant, and <a href="https://dynapac.com/">Dynapac (Fayat Group)</a> as a Data
+              Engineer. My main focus these days is building scalable AI systems at{' '}
+              <a href="https://www.northeastern.edu/">DASH AI Hub, Northeastern</a>.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              I'm currently working on <a href="https://github.com/justin-aj">several projects</a>{' '}
+              including EssayBot (an AI-powered grading platform), and studying CS 6650 ( Building
+              scalable distributed systems by{' '}
+              <a href="https://www.khoury.northeastern.edu/people/yvonne-coady/">Yvonne Coady</a>
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -173,7 +168,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.jpeg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

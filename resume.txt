@@ -1,0 +1,665 @@
+================================================================================
+AJIN FRANK JUSTIN
+================================================================================
+Phone: 857-356-5917
+Email: ajinfrankj@gmail.com
+LinkedIn: linkedin.com/in/ajin-frank-j
+Portfolio: [portfolio link]
+GitHub: github.com/justin-aj
+HuggingFace: [HuggingFace profile]
+Status: Open to Relocation
+
+================================================================================
+EDUCATION
+================================================================================
+
+Northeastern University – Boston, MA
+Master of Science in Data Science (Specialization: Computer Science)
+GPA: 4.0/4.0
+Duration: Sep 2024 – Dec 2026
+
+Coursework:
+- Algorithms
+- Building Scalable Distributed Systems
+- Web Development
+- Data Mining
+- Machine Learning
+- Deep Learning
+- MLOps
+- Natural Language Processing
+- Data Analytics & Engineering
+- Data Management & Processing
+- Artificial General Intelligence
+
+REVA University – Bangalore, India
+Bachelor of Technology, Computer Engineering
+GPA: 9.11/10
+Duration: Jun 2019 – Jul 2023
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+
+Languages & Databases:
+- Python (5 yrs, Advanced)
+- SQL (3 yrs, Advanced)
+- TypeScript, JavaScript
+- C++, C#, GoLang
+- PostgreSQL, MySQL, MongoDB, SparkSQL, Azure SQL
+- Pinecone, Qdrant, FAISS, DuckDB, OLAP, OLTP, BigQuery
+- Redis
+
+Data Processing & Engineering:
+- pandas, NumPy, PySpark, PySparkML, Spark
+- MapReduce, Hadoop, Hive, Kafka, RabbitMQ
+- Airflow, Dagster, EventHubs, dbt
+- Delta Lake, Databricks, Apache Flink
+- DVC
+
+ML/AI & Analytics:
+- Regression, Tree-based Ensembles, XGBoost
+- sklearn, Transformers, PyTorch, scikit-learn, TensorFlow, MLLib
+- OpenCV, AI Agents, LSTM, CNN, ResNet, EfficientNet
+- LangChain, LangGraph, LlamaIndex, Diffusion Models
+- Hugging Face, NLP, PEFT, QLoRA
+- Sentence-Transformers, Ollama, Cohere, Gemini AI
+- T5, GPT2, DistilBERT, Falcon, GPT-4
+- ARIMA, Prophet, CUDA
+- TF-IDF, PCA
+
+Visualization & BI Tools:
+- Matplotlib, Seaborn, Plotly
+- Power BI, Tableau, Excel
+
+Cloud & MLOps:
+- AWS (S3, Redshift)
+- Azure (Data Factory, Blob Storage)
+- GCP (BigQuery, VertexAI, Cloud Storage, Pub/Sub)
+- Docker, Kubernetes, MLFlow, Terraform
+- GitHub Actions, BitBucket, Grafana
+- Vercel, PM2, nginx
+
+Web Frameworks & APIs:
+- Flask, Django, FastAPI, Streamlit, ASP.NET
+- Node.js, Express.js, Next.js, React
+- RESTful APIs, WebSocket, JWT, OAuth2
+- Google Books API, Gmail API
+- Mongoose ODM
+
+Big Data & Formats:
+- Snowflake, Databricks
+- Spark Streaming, Apache Flink, Delta Lake
+- Parquet, Avro, JSON
+- GitHub Actions, BitBucket
+
+Methodologies & Tools:
+- Data Modeling, Data Warehousing, Data Lakes
+- Web Scraping (Selenium, BeautifulSoup, Crawl4AI, Playwright)
+- Excel, Scrum, Agile Methodologies
+- A/B Testing, Hypothesis Testing, ANOVA
+
+================================================================================
+PROFESSIONAL EXPERIENCE
+================================================================================
+
+Full-Stack AI Research Assistant
+DASH AI Hub, Northeastern University - Boston, MA
+Duration: Jan 2026 - Present
+
+Key Accomplishments:
+
+• Architected scalable microservices platform handling 100+ concurrent users with 300-600x 
+  performance improvement (30-60s → <100ms API response) by migrating from synchronous blocking 
+  architecture to asynchronous queue-based system using RabbitMQ, Redis, and worker pools.
+
+• Developed hybrid TypeScript/Node.js backend (Express.js) with Python Flask microservice for 
+  AI/ML processing, implementing JWT authentication, AWS S3 integration for file storage, MongoDB 
+  with Mongoose ODM, and WebSocket-based real-time progress updates.
+
+• Engineered intelligent RAG (Retrieval-Augmented Generation) system using LlamaIndex and 
+  Qdrant vector database, migrating from FAISS to implement semantic chunking with 1024-dimensional 
+  BGE embeddings, achieving accurate context retrieval from academic documents for AI grading.
+
+• Built multi-agent LLM orchestration system with LangGraph for parallel essay evaluation 
+  across multiple criteria, reducing grading time from 10s to 3s per essay through asynchronous 
+  agent coordination and optimized prompt engineering.
+
+• Implemented robust gaming detection and guardrails achieving 81% reduction in inappropriate 
+  scores (65/100 → 12/100 for gibberish submissions) through AI-powered quality analysis, 
+  gibberish detection, and coherence validation.
+
+• Designed enterprise-grade features including bulk grading with Excel integration, automatic 
+  retry logic with dead letter queues, comprehensive error handling, grading analytics dashboard, 
+  and RESTful API architecture supporting course/assignment/attachment management.
+
+• Deployed production infrastructure using Docker containerization, PM2 process management 
+  for high availability (4 API instances, 6 worker instances), nginx reverse proxy, and 
+  horizontal scaling capabilities.
+
+• Leveraged modern AI stack: PyTorch, Transformers, Sentence-Transformers, LangChain, 
+  Ollama LLM, CUDA acceleration, and multi-format document processing (PDF/TXT) with 
+  semantic analysis.
+
+
+
+Machine Learning Co-op
+AARP – Washington DC, USA
+Duration: Jun 2025 – Dec 2025
+
+Key Accomplishments:
+
+• Developed a gradient boosting model to personalize premium digital offers, boosting 
+  AARP auto-renewal conversions by 7% through targeted customer scoring (details in 
+  the Projects section).
+
+• Built ML model performance monitoring framework in Databricks using PySpark, SQL, 
+  tracking key metrics such as AUC, KS, lift across 25+ production models for 
+  real-time drift detection, model health monitoring.
+
+• Developed a TTAR (Targeted Time-to-Auto-Renew) predictive model to optimize member 
+  conversion to auto-renewal through personalized digital premium offers, driving 
+  measurable lift in conversions, renewals, and engagement.
+
+• Engineered a rich feature set (~3000 features) spanning AARP order channel data, 
+  membership term history, registration methods, demographic & census data, lifestyle 
+  engagement, marital & employment status, voting behavior, social impact engagement, 
+  and advocacy/donation patterns.
+
+• Applied advanced feature selection techniques (e.g., recursive feature elimination 
+  with cross-validation, mutual information, and regularization-based selection) to 
+  reduce dimensionality and identify high-impact predictors, enhancing model 
+  interpretability and stability.
+
+• Implemented and benchmarked multiple industry-standard ML algorithms including 
+  Logistic Regression, Gradient Boosting Machines (GBM), and Random Forest, adhering 
+  to best practices like stratified cross-validation, hyperparameter tuning, and 
+  probability calibration.
+
+• Followed production-grade ML practices: temporal validation, drift monitoring, model 
+  interpretability (SHAP/feature importance), and ensemble strategies to improve 
+  prediction robustness and generalizability.
+
+• Achieved measurable business impact with conversion lift (+18%) and retention uplift 
+  (+12%), improving overall campaign performance and providing actionable insights to 
+  guide offer personalization and member engagement strategies.
+
+• Developed scalable ML model performance monitoring dashboard in Databricks (PySpark, 
+  SQL) to process large volumes of prediction logs, tracking 10+ KPIs across 25+ 
+  production models (Logistic Regression, Random Forest, Boosting).
+
+• Automated ETL workflows to ingest and aggregate model outputs, enabling real-time 
+  diagnostics and improved model governance.
+
+• Conducted residual diagnostics, probability calibration, temporal performance drift 
+  analysis for 20+ production use cases.
+
+• Integrated statistical thresholds for data/model drift detection, triggering 
+  automated alerts and reducing drift incidents by 40%.
+
+• Delivered insights for model selection and retraining cycles, improving model 
+  stability and reducing prediction error by 20%.
+
+--------------------------------------------------------------------------------
+
+AI Research Assistant / DS Research Assistant
+D'Amore-McKim School of Business, Northeastern University – Boston, USA
+Duration: Jan 2025 – Apr 2025
+
+Key Accomplishments:
+
+• Built an NLP ETL pipeline (Airflow, RegEx, NLTK, spaCy) to preprocess 2000+ 
+  financial filings for ML and analytics workflows.
+
+• Created a robust PDF/TXT parser (PyMuPDF, RegEx) to extract entities and structure 
+  financial text for compliance tracking.
+
+• Benchmarked LLMs (Gemini, Claude, GPT-4) on 10-class financial classification, 
+  achieving 0.86+ F1-scores.
+
+• Automated feature extraction, integrating outputs into analytics pipelines for 
+  trend analysis and reporting.
+
+• Designed and implemented a sophisticated NLP pipeline leveraging a combination of 
+  Regular Expressions (RegEx), NLTK, spaCy, and advanced Large Language Models (LLMs) 
+  to extract and analyze process-specific data from over 10,000 financial filings, 
+  incorporating tokenization, named entity recognition (NER), dependency parsing, and 
+  context-aware text processing to handle complex document structures.
+
+• Developed an automated text preprocessing system for scraped PDF/TXT files from a 
+  filings repository using RegEx for pattern-based extraction and normalization, 
+  optimizing for malformed data and inconsistent formatting, reducing manual 
+  processing time by 90%.
+
+• Fine-tuned a RoBERTa model on a custom financial filings dataset for unstructured 
+  text classification, utilizing dynamic masking, gradient accumulation, and 
+  mixed-precision training to achieve a 70% reduction in GPU memory utilization while 
+  maintaining high accuracy.
+
+• Integrated LLaMA 3.3 70B for multi-class classification of entity-specific text, 
+  leveraging its 70 billion parameter architecture with prompt engineering and 
+  domain-specific fine-tuning to enhance semantic parsing by 200%.
+
+--------------------------------------------------------------------------------
+
+Data Engineer / Data Analytics /  Software Engineer
+Dynapac, Fayat Group – Bangalore, India
+Duration: Jun 2023 – Jun 2024
+
+Key Accomplishments:
+
+• Restructured Dyn@Lyzer's multi-join PostgreSQL telemetry GIS database into a 
+  partitioned, normalized schema.
+
+• Conducted ARIMA-based time series forecasting on fuel efficiency data, improving 
+  operational ROI by 20%.
+
+• Designed ETL orchestrator to process 300M+ telemetry records from 1000+ nodes, 
+  transforming raw data into JSON via Azure Durable Functions and loading into Azure 
+  Blob Storage.
+
+• Built interactive Tableau & Power BI dashboards to visualize GIS patterns, 
+  operational KPIs, and fuel trends for executive decision-making.
+
+• Redesigned Dyn@Lyzer's multi-join PostgreSQL telemetry GIS database into a 
+  partitioned and fully normalized schema.
+
+• Configured CI/CD pipelines for seamless schema migrations and validated a 90% 
+  read-query speedup via pgBench.
+
+• Redesigned Dyn@Lyzer authentication system, transitioning from encryption to 
+  hashing, reducing vulnerability risks by 99%.
+
+• Conducted time series forecasting on Dyn@Link data using ARIMA, seasonal 
+  decomposition, stationarity tests to analyze fuel efficiency, operational trends, 
+  enabling business team to make efficient decisions, improving operational ROI by 
+  20%.
+
+• Designed Python ETL data pipeline orchestration, sharding, batch processing for 
+  300M+ records from 1000+ machines.
+
+• Automated microservices deployment with Bitbucket Pipelines, using Django REST, 
+  FastAPI to build scalable REST APIs, YAML-based CI/CD pipelines for parallel 
+  testing, artifact management, and zero-downtime rollouts to Azure App Services.
+
+• Led database optimization for Dyn@Lyzer telemetry tool, transforming a multi-join 
+  architecture into partitioned, normalized structure, resulting in a 200% 
+  improvement in read query performance benchmarked with Pgbench.
+
+• Redesigned the Dyn@Lyzer authentication system, transitioning from encryption-based 
+  to hashing-based methods, reducing vulnerability risks by 99%. Conducted time 
+  series analysis on Dyn@Link compaction roller data, utilizing statistical 
+  techniques to analyze fuel efficiency patterns and identify operational trends.
+
+• Developed Python-based ETL microservices to process over 300 million records from 
+  1000+ machines, integrating DjangoREST, FastAPI, and Azure Durable Functions to 
+  build scalable REST APIs.
+
+• Optimized Azure web and function apps performance by 75% through efficient API 
+  design and implementation, enhancing throughput and reducing latency.
+
+--------------------------------------------------------------------------------
+
+Data Analytics / Data Engineering / Data Science / Software Engineer Intern
+Dynapac, Fayat Group – Bangalore, India
+Duration: Mar 2023 – May 2023
+
+Key Accomplishments:
+
+• Developed data ingestion pipeline to transform JSON into Azure Event Hubs, 
+  implementing partition keys for parallel streaming.
+
+• Leveraged OpenCV models to implement real-time video analysis for compaction 
+  rollers, enabling automated detection of compaction patterns and obstacles through 
+  computer vision techniques such as edge detection and object classification.
+
+• Developed a real-time data processing pipeline to analyze GPS and telemetry data 
+  from over 500 machines, integrating streaming data ingestion and processing for 
+  low-latency insights.
+
+• Created a Progressive Web App (PWA) using Django and Maps JavaScript API, 
+  integrating GMaps services and GPS modules to monitor compaction rollers with 
+  real-time geospatial visualization.
+
+================================================================================
+PROJECTS
+================================================================================
+
+EssayBot – AI-Powered Essay Grading Platform
+Technologies: TypeScript, Node.js, Express.js, Python, Flask, RabbitMQ, Redis, MongoDB, 
+LlamaIndex, Qdrant, LangGraph, PyTorch, Docker, PM2, nginx
+Duration: Jan 2026 – Present
+
+• Architected scalable microservices platform handling 100+ concurrent users with 300-600x 
+  performance improvement (30-60s → <100ms API response) by migrating from synchronous blocking 
+  architecture to asynchronous queue-based system using RabbitMQ, Redis, and worker pools.
+
+• Developed hybrid TypeScript/Node.js backend (Express.js) with Python Flask microservice for AI/ML 
+  processing, implementing JWT authentication, AWS S3 integration for file storage, MongoDB with 
+  Mongoose ODM, and WebSocket-based real-time progress updates.
+
+• Engineered intelligent RAG (Retrieval-Augmented Generation) system using LlamaIndex and Qdrant 
+  vector database, migrating from FAISS to implement semantic chunking with 1024-dimensional BGE 
+  embeddings, achieving accurate context retrieval from academic documents for AI grading.
+
+• Built multi-agent LLM orchestration system with LangGraph for parallel essay evaluation across multiple 
+  criteria, reducing grading time from 10s to 3s per essay through asynchronous agent coordination and 
+  optimized prompt engineering.
+
+• Implemented robust gaming detection and guardrails achieving 81% reduction in inappropriate scores 
+  (65/100 → 12/100 for gibberish submissions) through AI-powered quality analysis, gibberish detection, 
+  and coherence validation.
+
+• Designed enterprise-grade features including bulk grading with Excel integration, automatic retry 
+  logic with dead letter queues, comprehensive error handling, grading analytics dashboard, and RESTful 
+  API architecture supporting course/assignment/attachment management.
+
+• Deployed production infrastructure using Docker containerization, PM2 process management for 
+  high availability (4 API instances, 6 worker instances), nginx reverse proxy, and horizontal 
+  scaling capabilities.
+
+• Leveraged modern AI stack: PyTorch, Transformers, Sentence-Transformers, LangChain, 
+  Ollama LLM, CUDA acceleration, and multi-format document processing (PDF/TXT) 
+  with semantic analysis.
+
+--------------------------------------------------------------------------------
+
+GoodReads Clone – Full-Stack Book Discovery Platform
+Technologies: Next.js, TypeScript, Node.js, Express.js, MongoDB, Mongoose, Google Books API, Vercel, CSS
+Duration: Sep 2024 – Dec 2024
+
+• Developed a full-stack web application inspired by GoodReads, enabling users to discover, track, 
+  and review books. Built as a collaborative team project for CS5610.
+
+• Designed and implemented a responsive single-page application using Next.js and TypeScript, 
+  deployed on Vercel. Utilized modern React patterns with CSS styling for an intuitive user experience.
+
+• Architected a RESTful API server using Node.js and Express.js with MongoDB/Mongoose for data 
+  persistence. Implemented modular architecture with dedicated modules for Books, Bookshelves, 
+  Reviews, Users, Requests, and Search functionality.
+
+• Integrated Google Books API for comprehensive book search and discovery, enabling users to access 
+  extensive book metadata and information.
+
+• Built user authentication system with secure session management to protect user data and maintain 
+  personalized experiences.
+
+• Developed personalized bookshelf functionality allowing users to organize reading lists across 
+  multiple categories and preferences.
+
+• Implemented book review and rating system with CRUD operations, enabling community engagement 
+  and book recommendations.
+
+• Created book request feature for community-driven content suggestions, fostering user interaction 
+  and platform growth.
+
+--------------------------------------------------------------------------------
+
+Kambaz – Full-Stack Learning Management System (Canvas Clone)
+Technologies: Next.js, TypeScript, Node.js, Express.js, RESTful APIs, Vercel, CSS
+Duration: Sep 2024 – Dec 2024
+
+• Built a comprehensive Learning Management System replicating core Canvas LMS functionality, 
+  providing a streamlined platform for students and instructors to manage courses, assignments, 
+  and enrollments.
+
+• Developed a responsive single-page application using Next.js and TypeScript, featuring intuitive 
+  navigation and real-time updates. Deployed to production on Vercel with optimized performance 
+  and modern UI/UX design patterns.
+
+• Engineered a RESTful API server using Node.js and Express.js, implementing modular architecture 
+  to handle course management, user authentication, and educational content delivery.
+
+• Implemented role-based access control (RBAC) for students, instructors, and administrators, 
+  ensuring secure and appropriate access to platform resources.
+
+• Built comprehensive course management system with modules, assignments, and grading capabilities, 
+  streamlining the educational workflow for instructors and students.
+
+• Developed user enrollment and authentication workflows, enabling seamless onboarding and secure 
+  access management across the platform.
+
+• Created intuitive dashboard for tracking course progress and deadlines, providing students 
+  with real-time visibility into their academic performance.
+
+• Designed scalable API architecture supporting CRUD operations across all resources, ensuring 
+  maintainability and extensibility for future feature development.
+
+--------------------------------------------------------------------------------
+
+Transition-to-Auto-Renew (TTAR) Predictive Model with Digital Premium Offers
+Technologies: Python, PySparkML, MLLib, SQL
+Duration: Sept 2025 – Dec 2025
+
+• Developed a Transition-to-Auto-Renew (TTAR) model to help AARP personalize premium 
+  digital offers and improve auto-renewal conversions.
+
+• Built a scalable feature pipeline integrating 3,000+ candidate signals from 
+  transactional, demographic, and engagement data.
+
+• Used model-based feature selection with the GBT classifier to retain features 
+  covering 95% cumulative importance, reducing noise and improving generalization.
+
+• Refined the ML pipeline with skewness-aware imputations, log-scaling, and variance 
+  filtering to stabilize inputs and reduce drift.
+
+• Addressed class imbalance using weighted loss (weightCol in PySpark), 
+  precision–recall–based threshold tuning, and feature importance pruning for better 
+  minority class sensitivity.
+
+• Benchmarked Logistic Regression, Gradient Boosting, and Random Forest using a 
+  train–validation split (faster than typical cross-validation for a 5M-row sample 
+  in PySpark) and probability calibration; GBM achieved the best recall–F1 tradeoff.
+
+• Improved F1 and AUC-ROC by 5–8%, and increased Precision–Recall AUC, supporting 
+  incremental lifts in conversion and retention after production rollout.
+
+--------------------------------------------------------------------------------
+
+ML Model Performance Monitoring System
+Technologies: Databricks, PySpark
+Duration: Jun 2025 – Aug 2025
+
+• Instrumented statistical drift detection metrics (KS, Lift) to monitor large-scale 
+  marketing campaign models.
+
+• Built a Databricks monitoring framework for 25 ML models (LR, GBM, RF) with 
+  statistical threshold alerts.
+
+• Developed automated PySpark pipeline to process 3B+ scored records for real-time 
+  performance, drift analysis.
+
+• Identified, flagged degrading models enabling timely retraining, increasing 
+  campaign conversion rate by 15%.
+
+--------------------------------------------------------------------------------
+
+Cold Email / Job Application Automation
+Technologies: Python, Dagster, AI, Web Scraping
+Duration: May 2025 – June 2025
+GitHub: https://github.com/justin-aj/ces-automation
+
+• Engineered a Dagster-orchestrated ETL pipeline to automate end-to-end job 
+  application processes: job scraping, AI-driven email generation, Gmail draft 
+  creation, and status tracking.
+
+• Developed a dynamic job scraper using Crawl4AI and BeautifulSoup with a headless 
+  browser to reliably extract job title, description, company, location, and 
+  requirements from diverse job boards.
+
+• Integrated the Google Gmail API (OAuth2) to programmatically generate personalized 
+  email drafts with proper MIME formatting, attachments, and API compliance.
+
+• Leveraged Gemini AI for context-aware email content generation using candidate 
+  resumes and job descriptions.
+
+• Built a logging, monitoring, and reporting module (Excel/JSON) to track pipeline 
+  execution, email draft generation, and application status.
+
+• Designed the system to be modular and scalable, enabling easy integration of new 
+  job boards, AI models, and automation workflows.
+
+--------------------------------------------------------------------------------
+
+PR Summarizer
+Technologies: Python, GCP, AI, Gmail API, Pub/Sub
+Duration: May 2025 – June 2025
+GitHub: https://github.com/justin-aj/PRSummarizer.git
+
+• Architected a cloud-native, event-driven pipeline to identify, extract, and 
+  summarize press releases from Gmail messages in real time.
+
+• Utilized Gmail API with GCP Pub/Sub for asynchronous ingestion of emails, ensuring 
+  high-throughput, reliable processing.
+
+• Implemented adaptive web scraping using Crawl4AI and Playwright to fetch external 
+  press release content with dynamic page handling.
+
+• Designed and deployed AI-driven classification and summarization using Gemini AI to 
+  detect press releases, parse timestamps, and produce structured, human-readable 
+  summaries.
+
+• Persisted structured output to Google Cloud Storage (JSON), with comprehensive 
+  logging, error handling, and retry mechanisms.
+
+• Built the system to be extensible, supporting multi-source ingestion and future AI 
+  model integration.
+
+--------------------------------------------------------------------------------
+
+Product Usage Time Series Forecasting
+Technologies: Python, ARIMA, XGBoost, Time Series Modeling
+Duration: May 2025 – June 2025
+GitHub: https://github.com/justin-aj/ProductUsage-TimeSeriesForecasting
+
+• Developed a modular time series forecasting pipeline predicting weekly product 
+  usage across multiple SKUs and entities using ARIMA, Linear Regression, Random 
+  Forest, and XGBoost.
+
+• Engineered temporal features including lags, rolling statistics, seasonal 
+  indicators, and holiday effects to enhance model performance.
+
+• Applied robust preprocessing: handled missing values, outliers, normalization, and 
+  entity-specific transformations.
+
+• Conducted model evaluation and selection using MAE, RMSE, and MAPE per entity to 
+  ensure high-accuracy forecasts.
+
+• Built visualization dashboards for historical and forecast trends to guide 
+  inventory planning and demand forecasting.
+
+• Structured the pipeline for scalability and reusability, with modular components 
+  for feature engineering, modeling, prediction, and reporting.
+
+--------------------------------------------------------------------------------
+
+ELT Pipeline for TCGA DNA Methylation & Clinical Data
+Technologies: Apache Airflow, Google BigQuery, dbt, DVC, GCS
+Duration: May 2025 – June 2025
+GitHub: https://github.com/justin-aj/ELTBigQuery.git
+
+• Engineered a full ELT workflow to extract, transform, and load DNA methylation and 
+  clinical datasets from the GDC Data Portal into Google BigQuery for downstream ML 
+  workflows.
+
+• Automated ETL processes using Apache Airflow DAGs, with task dependencies, retries, 
+  and SLA monitoring for reliable execution.
+
+• Employed dbt for modular SQL-based transformations, producing curated, 
+  analytics-ready datasets from raw inputs while maintaining version control.
+
+• Utilized DVC for data versioning and Google Cloud Storage (GCS) for raw data 
+  storage, ensuring reproducibility and dataset integrity.
+
+• Implemented robust logging, monitoring, and error handling, enabling pipeline 
+  diagnostics and auditability.
+
+• Designed for scalability and extensibility, facilitating integration with 
+  predictive modeling pipelines and downstream analytics.
+
+--------------------------------------------------------------------------------
+
+AskNEU – Retrieval-Augmented Generation System
+Technologies: LangChain, LangGraph, Docker, Pinecone, GCP, Cohere
+Duration: Jan 2025 – Apr 2025
+GitHub: https://github.com/justin-aj/AskNEU
+
+• Architected RAG system with Cohere reranking and Complex Retrieval Framework 
+  (query decomposition, context unification) using GPT-4.1 and Gemini APIs.
+
+• Scraped 50,000+ NEU web pages via Selenium, chunked data, embedded using LangChain, 
+  and stored in Pinecone vector DB for semantic search.
+
+• Scaled with Docker, Kubernetes, Airflow DAGs, Terraform, CI/CD via GitHub Actions; 
+  monitored with Grafana.
+
+--------------------------------------------------------------------------------
+
+AI Banking Assistant
+Technologies: Transformers, PEFT, Hugging Face, PyTorch
+Duration: Dec 2024 – Jan 2025
+GitHub: https://github.com/justin-aj/AIBankingAssistant
+
+• Built QA and conditional text generation tasks with 25,000+ QA pairs.
+
+• Fine-tuned T5-small, GPT2-small, DistilBERT via QLoRA (4-bit quantization) and 
+  benchmarked Falcon-7B.
+
+• Achieved BLEU 0.25, ROUGE-1 F1 0.54 on NVIDIA V100 GPU, indicating strong text 
+  generation performance.
+
+--------------------------------------------------------------------------------
+
+Amazon Product Sales Analysis – Tableau Dashboard
+Technologies: pandas, NumPy, Tableau
+Duration: Dec 2024 – Jan 2025
+
+• Preprocessed and transformed 2M+ rows for KPI tracking and visualization.
+
+• Forecasted sales with ARIMA & Prophet, improving accuracy by 22%; implemented 
+  customer segmentation, boosting campaign response by 20%.
+
+• Identified underperforming SKUs, improving stock turnover by 15%.
+
+--------------------------------------------------------------------------------
+
+Food Categorization using Machine Learning
+Scalable Analytics Pipeline - Food Categorization
+Technologies: sklearn, Random Forest, TF-IDF, PCA
+Duration: Oct 2024 – Dec 2024
+GitHub: https://github.com/justin-aj/USDA-Branded-Foods
+
+• Classified USDA food products into 70+ categories with 91.98% accuracy and 91.87% 
+  F1-score on 1.7M entries.
+
+• Optimized with TF-IDF vectorization, PCA, and A/B testing; derived insights for 
+  nutrition and inventory management using hypothesis testing & ANOVA.
+
+• Developed an ML system for food product categorization on USDA data, with feature 
+  engineering, data preprocessing.
+
+• Implemented Logistic Regression and Random Forest models, achieving 91.98% accuracy 
+  and 91.87% F1-Score on 1.7M entries, optimized via TF-IDF vectorization, PCA 
+  dimensionality reduction, and A/B testing for statistical validation.
+
+• Derived statistical insights for nutrition, inventory, recommendations, leveraging 
+  hypothesis testing, ANOVA.
+
+--------------------------------------------------------------------------------
+
+Deep Learning on Knee MRI Scans
+Technologies: pandas, PyTorch, sklearn
+Duration: Oct 2024 – Dec 2024
+GitHub: https://github.com/justin-aj/MRNet-Deep-Learning-Chirag
+
+• Leveraged 3D CNN, ResNet 50, Transfer Learning on EfficientNet, to classify knee 
+  MRI scans.
+
+• Data augmentation on 1,370 MRI exams and fine-tuned hyperparameters for enhanced 
+  performance.
+
+• Achieved a validation accuracy of 82.5% with an optimized 3D CNN to improve 
+  diagnostic accuracy.
+
+================================================================================
+END OF RESUME
+================================================================================

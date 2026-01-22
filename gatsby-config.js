@@ -2,12 +2,12 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Ajin Frank Justin',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+      'Ajin Frank Justin is a Data Scientist & ML Engineer specializing in building scalable AI systems and machine learning pipelines.',
+    siteUrl: 'https://justin-aj.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@justin_aj',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Ajin Frank Justin',
+        short_name: 'Ajin Frank Justin',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

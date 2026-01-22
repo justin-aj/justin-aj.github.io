@@ -20,7 +20,6 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "prepare": "husky install",
-    "preinstall": "npx npm-force-resolutions",
     "lint-staged": "lint-staged",
     "deploy": "gatsby build && gh-pages -d public -b gh-pages"
   },

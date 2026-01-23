@@ -65,8 +65,9 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm a Data Scientist & ML Engineer specializing in building scalable AI systems, machine
-        learning pipelines, and full-stack applications. Currently pursuing my MS in Data Science at{' '}
+        I'm a Software Engineer & Data Scientist with ML skills specializing in building scalable AI
+        systems, machine learning pipelines, and full-stack applications. Currently pursuing my MS
+        in Data Science at{' '}
         <a href="https://www.northeastern.edu/" target="_blank" rel="noreferrer">
           Northeastern University
         </a>

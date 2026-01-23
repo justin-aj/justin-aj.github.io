@@ -60,7 +60,7 @@ const StyledPic = styled.div`
     display: block;
     position: relative;
     width: 100%;
-    border-radius: var(--border-radius);
+    border-radius: 50%;
     background-color: var(--green);
 
     &:hover,
@@ -80,7 +80,7 @@ const StyledPic = styled.div`
 
     .img {
       position: relative;
-      border-radius: var(--border-radius);
+      border-radius: 50%;
       mix-blend-mode: multiply;
       filter: grayscale(100%) contrast(1);
       transition: var(--transition);
@@ -93,7 +93,7 @@ const StyledPic = styled.div`
       position: absolute;
       width: 100%;
       height: 100%;
-      border-radius: var(--border-radius);
+      border-radius: 50%;
       transition: var(--transition);
     }
 

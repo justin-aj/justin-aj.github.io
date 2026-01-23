@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Python', 'PyTorch', 'LangChain', 'React', 'Node.js', 'AWS/GCP'];
+  const skills = ['Python', 'Go', 'React', 'Node.js', 'TypeScript', 'AWS/GCP'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -146,17 +146,17 @@ const About = () => {
               <a href="https://www.northeastern.edu/">Northeastern University</a> as an AI Research
               Assistant, and <a href="https://dynapac.com/">Dynapac (Fayat Group)</a> as a Data
               Engineer. My main focus these days is building scalable AI systems at{' '}
-              <a href="https://www.northeastern.edu/">DASH AI Hub, Northeastern</a>.
+              <a href="https://damore-mckim.northeastern.edu/dash/">DASH AI Hub, Northeastern</a>.
             </p>
 
             <p>
               I'm currently working on <a href="https://github.com/justin-aj">several projects</a>{' '}
-              including EssayBot (an AI-powered grading platform), and studying CS 6650 ( Building
+              including EssayBot (an AI-powered grading platform), and studying CS 6650 Building
               scalable distributed systems by{' '}
-              <a href="https://www.khoury.northeastern.edu/people/yvonne-coady/">Yvonne Coady</a>
+              <a href="https://www.khoury.northeastern.edu/people/yvonne-coady/">Yvonne Coady</a>.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
           <ul className="skills-list">

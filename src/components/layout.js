@@ -10,6 +10,18 @@ const StyledContent = styled.div`
   min-height: 100vh;
 `;
 
+const StyledSpotlight = styled.div`
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  background: radial-gradient(
+    600px at var(--x, 100px) var(--y, 100px),
+    rgba(29, 78, 216, 0.15),
+    transparent 80%
+  );
+`;
+
 const Layout = ({ children, location }) => {
   const isHome = location.pathname === '/';
   const [isLoading, setIsLoading] = useState(isHome);
@@ -46,6 +58,17 @@ const Layout = ({ children, location }) => {
     handleExternalLinks();
   }, [isLoading]);
 
+  useEffect(() => {
+    const updateMousePosition = ev => {
+      document.documentElement.style.setProperty('--x', `${ev.clientX}px`);
+      document.documentElement.style.setProperty('--y', `${ev.clientY}px`);
+    };
+    window.addEventListener('mousemove', updateMousePosition);
+    return () => {
+      window.removeEventListener('mousemove', updateMousePosition);
+    };
+  }, []);
+
   return (
     <>
       <Head />
@@ -53,6 +76,7 @@ const Layout = ({ children, location }) => {
       <div id="root">
         <ThemeProvider theme={theme}>
           <GlobalStyle />
+          <StyledSpotlight />
 
           <a className="skip-to-content" href="#content">
             Skip to Content

@@ -10,7 +10,7 @@ export default function Home() {
 
       <p>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/me.jpeg" alt="Ajin Frank Justin" width="180" />
+        <img src="/me.jpeg" alt="Ajin Frank Justin" width="180" height="180" />
       </p>
 
       <p>

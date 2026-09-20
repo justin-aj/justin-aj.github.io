@@ -24,7 +24,8 @@ npm run typecheck
 
 The page text lives in `app/page.tsx`. Everything else is data:
 
-- `data/site.ts` - name, email, skills
+- `data/site.ts` - name, email, skills (the nav and social links are in
+  `app/layout.tsx`)
 - `data/jobs.ts` - jobs
 - `data/projects.ts` - projects
 - `data/testimonials.ts` - recommendations

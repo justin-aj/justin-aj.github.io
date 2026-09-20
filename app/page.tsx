@@ -9,6 +9,11 @@ export default function Home() {
       <h1>Ajin Frank Justin</h1>
 
       <p>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/me.jpeg" alt="Ajin Frank Justin" width="180" />
+      </p>
+
+      <p>
         I write software. Mostly data pipelines, machine learning models, and the backend plumbing
         that keeps them running.
       </p>
@@ -28,9 +33,9 @@ export default function Home() {
       </p>
       <p>
         Before Northeastern I spent a year at <a href="https://dynapac.com/">Dynapac</a> in
-        Bangalore working on telemetry data for construction machines. Since then:{' '}
-        <a href="https://www.aarp.org/">AARP</a>, where I built churn and offer-targeting models,
-        and a research assistant stint at Northeastern on financial NLP.
+        Bangalore, on the telemetry database and ETL behind Dyn@Lyzer. Since then:{' '}
+        <a href="https://www.aarp.org/">AARP</a>, where I worked on offer targeting and model
+        monitoring, and a research assistant stint at Northeastern on financial NLP.
       </p>
       <p>
         Right now I&apos;m building EssayBot, an essay grading tool. Most of my side projects are
@@ -88,8 +93,7 @@ export default function Home() {
 
       <h2>Get in touch</h2>
       <p>
-        Email is best: <a href={`mailto:${site.email}`}>{site.email}</a>. I answer everything that
-        isn&apos;t a recruiter template.
+        Email is best: <a href={`mailto:${site.email}`}>{site.email}</a>.
       </p>
     </>
   );

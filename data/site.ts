@@ -4,5 +4,5 @@ export const site = {
     'Ajin Frank Justin - software engineer working on data pipelines, machine learning and AI systems.',
   url: 'https://justin-aj.github.io',
   email: 'ajinfrankj@gmail.com',
-  skills: ['Python', 'TypeScript', 'Go', 'React', 'Node.js', 'PyTorch', 'Spark', 'AWS', 'GCP'],
+  skills: ['Python', 'Go', 'React', 'TypeScript', 'Node.js', 'PyTorch', 'Spark', 'Azure', 'AWS', 'GCP'],
 };

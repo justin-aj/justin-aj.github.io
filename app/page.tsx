@@ -1,3 +1,4 @@
+import { Greeting } from '@/components/greeting';
 import { site } from '@/data/site';
 import { jobs } from '@/data/jobs';
 import { testimonials } from '@/data/testimonials';
@@ -5,6 +6,8 @@ import { testimonials } from '@/data/testimonials';
 export default function Home() {
   return (
     <>
+      <Greeting />
+
       <h1>Ajin Frank Justin</h1>
 
       <p>

@@ -4,18 +4,18 @@ import { useSyncExternalStore } from 'react';
 
 function greetingFor(hour: number): string {
   if (hour < 5) {
-    return 'Good night';
+    return 'Good night!';
   }
   if (hour < 12) {
-    return 'Good morning';
+    return 'Hey, Good morning!';
   }
   if (hour < 17) {
-    return 'Good afternoon';
+    return 'Hey, Good afternoon!';
   }
   if (hour < 21) {
-    return 'Good evening';
+    return 'Hey, Good evening!';
   }
-  return 'Good night';
+  return 'Good night, sweet dreams!';
 }
 
 // Re-check on the hour, so a page left open overnight does not stay stale.
@@ -35,5 +35,10 @@ export function Greeting() {
     () => 'Hello',
   );
 
-  return <p>{greeting}.</p>;
+  return (
+    <p>
+      {greeting}. Welcome to my site! This is no AI zone. Contents here are written by me with my
+      English language grammar knowledge. Don&apos;t ask me about the website code.
+    </p>
+  );
 }

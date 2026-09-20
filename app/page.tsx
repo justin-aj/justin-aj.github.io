@@ -16,31 +16,43 @@ export default function Home() {
       </p>
 
       <p>
-        I write software. Mostly data pipelines, machine learning models, and the backend plumbing
-        that keeps them running.
+        I use technology to solve problems and make life easier to live if possible. 
       </p>
       <p>
-        I&apos;m doing an MS in Data Science at{' '}
-        <a href="https://www.northeastern.edu/">Northeastern</a>, and I build AI systems at the{' '}
+        I&apos;m in my last semester of Master of Science in Data Science at{' '}
+        <a href="https://www.northeastern.edu/">Northeastern University, Boston</a>, and currently working as an AI Research Assistant at the{' '}
         <a href="https://damore-mckim.northeastern.edu/dash/">DASH AI Lab</a>.
       </p>
       <p>
-        <a href={`mailto:${site.email}`}>{site.email}</a>
+        Reach out to me at <a href={`mailto:${site.email}`}>{site.email}</a>
       </p>
 
       <h2>About</h2>
       <p>
-        I got into this through math. Calculus, mostly. That turned into programming, then machine
-        learning, and here we are.
+        When I was in my 7th grade, I understood math is actually the most easiest subject because it uses numbers and it is the only language with logic/common sense.
       </p>
       <p>
-        Before Northeastern I spent a year at <a href="https://dynapac.com/">Dynapac</a> in
-        Bangalore, on the telemetry database and ETL behind Dyn@Lyzer. Since then:{' '}
-        <a href="https://www.aarp.org/">AARP</a>, where I worked on offer targeting and model
-        monitoring, and a research assistant stint at Northeastern on financial NLP.
+        I did my undergrad at <a href="https://www.reva.edu.in/">REVA University</a>, Bangalore. I
+        do have a story to why I did my undergrad at REVA.
       </p>
-      <p>Right now I&apos;m building EssayBot, an essay grading tool.</p>
-      <p>Things I use a lot: {site.skills.join(', ')}.</p>
+      <p>
+        After my undergrad, I spent a year at <a href="https://dynapac.com/">Dynapac</a> in
+        Bangalore, where I worked with the Dynapac Sweden team full time as a Software Engineer.
+      </p>
+      <p>
+        Now, I am in the US, pursuing my Master of Science in Data Science at{' '}
+        <a href="https://www.northeastern.edu/">Northeastern University</a>, Boston Campus.
+      </p>
+      <p>
+        Things I use a lot:{' '}
+        {site.skills.map((skill, i) => (
+          <span key={skill.name}>
+            {i > 0 && ', '}
+            <a href={skill.url}>{skill.name}</a>
+          </span>
+        ))}
+        .
+      </p>
 
       <h2>Work</h2>
       {jobs.map(job => (

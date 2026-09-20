@@ -1,6 +1,5 @@
 import { site } from '@/data/site';
 import { jobs } from '@/data/jobs';
-import { projects } from '@/data/projects';
 import { testimonials } from '@/data/testimonials';
 
 export default function Home() {
@@ -37,10 +36,7 @@ export default function Home() {
         <a href="https://www.aarp.org/">AARP</a>, where I worked on offer targeting and model
         monitoring, and a research assistant stint at Northeastern on financial NLP.
       </p>
-      <p>
-        Right now I&apos;m building EssayBot, an essay grading tool. Most of my side projects are
-        on <a href="https://github.com/justin-aj">GitHub</a>.
-      </p>
+      <p>Right now I&apos;m building EssayBot, an essay grading tool.</p>
       <p>Things I use a lot: {site.skills.join(', ')}.</p>
 
       <h2>Work</h2>
@@ -59,21 +55,10 @@ export default function Home() {
       ))}
 
       <h2>Projects</h2>
-      <ul className="projects">
-        {projects.map(project => {
-          const href = project.external || project.github;
-
-          return (
-            <li key={project.title}>
-              <h3>{href ? <a href={href}>{project.title}</a> : project.title}</h3>
-              <p>{project.description}</p>
-              <p>
-                <small>{project.tech.join(', ')}</small>
-              </p>
-            </li>
-          );
-        })}
-      </ul>
+      <p>
+        Everything I build in my own time is on{' '}
+        <a href="https://github.com/justin-aj">github.com/justin-aj</a>.
+      </p>
 
       <h2>What people say</h2>
       {testimonials.map(item => (

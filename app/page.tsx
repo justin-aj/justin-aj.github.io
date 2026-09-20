@@ -20,7 +20,7 @@ export default function Home() {
       <p>
         I&apos;m doing an MS in Data Science at{' '}
         <a href="https://www.northeastern.edu/">Northeastern</a>, and I build AI systems at the{' '}
-        <a href="https://damore-mckim.northeastern.edu/dash/">DASH AI Hub</a>.
+        <a href="https://damore-mckim.northeastern.edu/dash/">DASH AI Lab</a>.
       </p>
       <p>
         <a href={`mailto:${site.email}`}>{site.email}</a>

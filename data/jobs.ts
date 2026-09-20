@@ -10,13 +10,13 @@ export type Job = {
 // Ordered most recent first.
 export const jobs: Job[] = [
   {
-    company: 'DASH AI Hub',
+    company: 'DASH AI Lab',
     title: 'Full-Stack AI Research Assistant',
     location: 'Boston, MA',
     range: 'January 2026 - Present',
     url: 'https://damore-mckim.northeastern.edu/dash/',
     summary:
-      'I build the backend for an AI essay grading platform: a TypeScript and Node.js service alongside a Python service for the model work, a retrieval pipeline on LlamaIndex and Qdrant, and multi-agent evaluation with LangGraph. Much of the work is throughput. Request queueing on RabbitMQ and Redis, worker pools, and the Docker and nginx deployment underneath.',
+      'I work on multiple products at DASH, which include DASH API and AVA. DASH API is a platform that uses SLURM and Open OnDemand to run AI models and workloads on 4x Blackwell GPUs. AVA is a stealth AI product currently being used by real users.',
   },
   {
     company: 'AARP',
@@ -43,6 +43,6 @@ export const jobs: Job[] = [
     range: 'June 2023 - June 2024',
     url: 'https://dynapac.com/',
     summary:
-      "Dyn@Lyzer, Dynapac's telemetry product. I rebuilt the PostgreSQL schema behind it into a partitioned, normalized design, and wrote the ETL that ingests several hundred million telemetry records from over a thousand nodes on Azure Durable Functions. I also did the ARIMA forecasting on fuel efficiency data and the Tableau and Power BI dashboards on top.",
+      "Dyn@Lyzer, Dynapac's telemetry product, working with the team in Sweden. I rebuilt the PostgreSQL schema behind it into a partitioned, normalized design, and wrote the ETL that ingests several hundred million telemetry records from over a thousand nodes on Azure Durable Functions. I also did the ARIMA forecasting on fuel efficiency data and the Tableau and Power BI dashboards on top.",
   },
 ];

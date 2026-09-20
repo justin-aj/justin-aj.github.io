@@ -13,7 +13,7 @@ export const jobs: Job[] = [
     company: 'DASH AI Hub',
     title: 'Full-Stack AI Research Assistant',
     location: 'Boston, MA',
-    range: 'January 2026 — Present',
+    range: 'January 2026 - Present',
     url: 'https://damore-mckim.northeastern.edu/dash/',
     points: [
       'Architected scalable microservices platform handling 100+ concurrent users with 300-600x performance improvement (30-60s → <100ms API response) using RabbitMQ, Redis, and worker pools',
@@ -27,7 +27,7 @@ export const jobs: Job[] = [
     company: 'AARP',
     title: 'Machine Learning Co-op',
     location: 'Washington DC, USA',
-    range: 'June 2025 — December 2025',
+    range: 'June 2025 - December 2025',
     url: 'https://www.aarp.org/',
     points: [
       'Developed gradient boosting model to personalize premium digital offers, boosting auto-renewal conversions by 7% through targeted customer scoring',
@@ -41,7 +41,7 @@ export const jobs: Job[] = [
     company: 'Northeastern University',
     title: 'AI Research Assistant',
     location: 'Boston, MA',
-    range: 'January 2025 — April 2025',
+    range: 'January 2025 - April 2025',
     url: 'https://www.northeastern.edu/',
     points: [
       'Built NLP ETL pipeline (Airflow, RegEx, NLTK, spaCy) to preprocess 2000+ financial filings for ML workflows',
@@ -55,7 +55,7 @@ export const jobs: Job[] = [
     company: 'Dynapac (Fayat Group)',
     title: 'Data Engineer / Software Engineer',
     location: 'Bangalore, India',
-    range: 'June 2023 — June 2024',
+    range: 'June 2023 - June 2024',
     url: 'https://dynapac.com/',
     points: [
       "Restructured Dyn@Lyzer's multi-join PostgreSQL telemetry GIS database into a partitioned, normalized schema with 200% read query improvement",

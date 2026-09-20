@@ -1,7 +1,36 @@
-/* The only hand-written CSS on the site: a readable centred column
-   instead of full-bleed text. Everything else is browser defaults. */
+/* The page is one centred column. Prose stays at a readable measure;
+   the project grid is allowed the full width. Everything not set here
+   is a browser default. */
 body {
-  max-width: 40rem;
+  max-width: 62rem;
   margin: 0 auto;
   padding: 1rem;
+}
+
+body > :not(.projects) {
+  max-width: 40rem;
+  margin-inline: auto;
+}
+
+/* There are a lot of projects, so they get cards, three to a row. */
+.projects {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  gap: 1rem;
+}
+
+.projects li {
+  border: 1px solid #ccc;
+  padding: 0.75rem 1rem;
+}
+
+.projects h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.projects p {
+  margin: 0.5rem 0 0;
 }

@@ -63,15 +63,13 @@ export default function Home() {
       ))}
 
       <h2>Projects</h2>
-      <ul>
+      <ul className="projects">
         {projects.map(project => {
           const href = project.external || project.github;
 
           return (
             <li key={project.title}>
-              <p>
-                <strong>{href ? <a href={href}>{project.title}</a> : project.title}</strong>
-              </p>
+              <h3>{href ? <a href={href}>{project.title}</a> : project.title}</h3>
               <p>{project.description}</p>
               <p>
                 <small>{project.tech.join(', ')}</small>
@@ -86,7 +84,7 @@ export default function Home() {
         <blockquote key={item.name}>
           <p>{item.content}</p>
           <p>
-            &mdash; <a href={item.link}>{item.name}</a>, {item.role}
+            <a href={item.link}>{item.name}</a>, {item.role}
           </p>
         </blockquote>
       ))}

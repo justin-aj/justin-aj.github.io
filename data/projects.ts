@@ -10,7 +10,7 @@ export type Project = {
 // Ordered most recent first.
 export const projects: Project[] = [
   {
-    title: 'EssayBot — AI-Powered Essay Grading Platform',
+    title: 'EssayBot - AI-Powered Essay Grading Platform',
     date: '2026-01-01',
     github: 'https://github.com/justin-aj',
     tech: ['TypeScript', 'Node.js', 'LlamaIndex', 'LangGraph', 'RabbitMQ', 'MongoDB'],
@@ -64,7 +64,7 @@ export const projects: Project[] = [
       'Dagster-orchestrated ETL pipeline automating job applications: job scraping with Crawl4AI, AI-driven email generation with Gemini, and Gmail draft creation with OAuth2.',
   },
   {
-    title: 'AskNEU — RAG System',
+    title: 'AskNEU - RAG System',
     date: '2025-04-01',
     github: 'https://github.com/justin-aj/AskNEU',
     tech: ['LangChain', 'LangGraph', 'Pinecone', 'GCP', 'Cohere', 'Docker'],
@@ -103,14 +103,14 @@ export const projects: Project[] = [
       'Classified USDA food products into 70+ categories with 91.98% accuracy and 91.87% F1-score on 1.7M entries. Optimized with TF-IDF vectorization, PCA, and A/B testing.',
   },
   {
-    title: 'Kambaz — Learning Management System',
+    title: 'Kambaz - Learning Management System',
     date: '2024-12-02',
     tech: ['Next.js', 'TypeScript', 'Express.js', 'RESTful APIs', 'Vercel'],
     description:
       'Comprehensive LMS replicating Canvas functionality. Features role-based access control, course management with modules and assignments, and intuitive dashboard for tracking progress.',
   },
   {
-    title: 'GoodReads Clone — Book Discovery Platform',
+    title: 'GoodReads Clone - Book Discovery Platform',
     date: '2024-12-01',
     tech: ['Next.js', 'TypeScript', 'Express.js', 'MongoDB', 'Google Books API'],
     description:

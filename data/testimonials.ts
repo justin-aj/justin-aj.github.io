@@ -12,7 +12,7 @@ export const testimonials: Testimonial[] = [
     role: 'Data Scientist at AARP',
     company: 'AARP',
     content:
-      'I had the pleasure of working with Ajin during his internship at AARP, and he quickly distinguished himself as someone who learns fast, thinks critically, and delivers reliably. He took ownership of a technically demanding analytics project. He approached it with maturity well beyond an intern level—breaking down ambiguous problems, validating results carefully, and communicating his progress with clarity and professionalism.',
+      'I had the pleasure of working with Ajin during his internship at AARP, and he quickly distinguished himself as someone who learns fast, thinks critically, and delivers reliably. He took ownership of a technically demanding analytics project. He approached it with maturity well beyond an intern level, breaking down ambiguous problems, validating results carefully, and communicating his progress with clarity and professionalism.',
     link: 'https://www.linkedin.com/in/ekaagar/',
   },
   {

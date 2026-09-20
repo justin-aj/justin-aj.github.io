@@ -1,6 +1,11 @@
 import type { Metadata } from 'next';
+import { Roboto } from 'next/font/google';
 import Link from 'next/link';
 import { site } from '@/data/site';
+
+// 700 is included so headings and <strong> get a real bold face
+// rather than a synthesised one.
+const roboto = Roboto({ subsets: ['latin'], weight: ['400', '700'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -18,7 +23,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={roboto.className}>
       <body>
         <nav>
           <Link href="/">Home</Link> | <Link href="/blog/">Blog</Link> |{' '}

@@ -1,7 +1,8 @@
 # justin-aj.github.io
 
-My personal site. Plain HTML, no stylesheet, no framework CSS. Built with
-Next.js and exported as static files to GitHub Pages.
+My personal site. Plain HTML with browser default layout - the only styling
+is the Roboto webfont, self-hosted via `next/font`. Built with Next.js and
+exported as static files to GitHub Pages.
 
 https://justin-aj.github.io
 

@@ -22,15 +22,23 @@ export const metadata: Metadata = {
   },
 };
 
+function Separator() {
+  return <span aria-hidden="true">|</span>;
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={roboto.className}>
       <body>
         <nav>
           <Link href="/">Home</Link>
+          <Separator />
           <Link href="/blog/">Blog</Link>
+          <Separator />
           <a href="https://github.com/justin-aj">GitHub</a>
+          <Separator />
           <a href="https://www.linkedin.com/in/ajin-frank-j">LinkedIn</a>
+          <Separator />
           <a href="/resume.pdf">Resume</a>
         </nav>
         <hr />

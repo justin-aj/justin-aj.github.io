@@ -44,7 +44,7 @@ export default function Home() {
         <a href="https://www.northeastern.edu/">Northeastern University</a>, Boston Campus.
       </p>
       <p>
-        Things I use a lot:{' '}
+        Stack I use a lot:{' '}
         {site.skills.map((skill, i) => (
           <span key={skill.name}>
             {i > 0 && ', '}

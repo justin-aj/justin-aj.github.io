@@ -27,9 +27,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={roboto.className}>
       <body>
         <nav>
-          <Link href="/">Home</Link> | <Link href="/blog/">Blog</Link> |{' '}
-          <a href="https://github.com/justin-aj">GitHub</a> |{' '}
-          <a href="https://www.linkedin.com/in/ajin-frank-j">LinkedIn</a> |{' '}
+          <Link href="/">Home</Link>
+          <Link href="/blog/">Blog</Link>
+          <a href="https://github.com/justin-aj">GitHub</a>
+          <a href="https://www.linkedin.com/in/ajin-frank-j">LinkedIn</a>
           <a href="/resume.pdf">Resume</a>
         </nav>
         <hr />

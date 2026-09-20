@@ -5,3 +5,11 @@ body {
   margin: 0 auto;
   padding: 1rem;
 }
+
+/* Space the nav links by the same 1rem the page is padded with,
+   instead of separating them with pipes. */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

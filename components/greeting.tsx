@@ -32,12 +32,12 @@ export function Greeting() {
   const greeting = useSyncExternalStore(
     subscribe,
     () => greetingFor(new Date().getHours()),
-    () => 'Hello',
+    () => 'Hello!',
   );
 
   return (
     <p>
-      {greeting}. Welcome to my site! This is no AI zone. Contents here are written by me with my
+      {greeting} Welcome to my site! This is no AI zone. Contents here are written by me with my
       English language grammar knowledge. Don&apos;t ask me about the website code.
     </p>
   );

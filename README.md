@@ -1,93 +1,68 @@
 # justin-aj.github.io
 
-Personal site of Ajin Frank Justin. Black-and-white, minimal, statically exported.
+My personal site. Plain HTML, no stylesheet, no framework CSS. Built with
+Next.js and exported as static files to GitHub Pages.
 
-Live at **https://justin-aj.github.io**
+https://justin-aj.github.io
 
-## Stack
+## Running it
 
-| | |
-|---|---|
-| Framework | Next.js 16 (App Router, Turbopack) |
-| Language | TypeScript 5.9 |
-| Styling | Tailwind CSS 4 |
-| Editor | Tiptap 3 + `tiptap-markdown` (dev only) |
-| Output | Static export (`out/`) deployed to GitHub Pages |
-
-Requires Node 20.9+ (see `.nvmrc`).
-
-## Local development
+Needs Node 20.9 or newer.
 
 ```sh
 npm install
 npm run dev      # http://localhost:3000
 ```
 
-Other scripts:
-
 ```sh
-npm run build      # static export into out/
+npm run build      # writes out/
 npm run lint
 npm run typecheck
 ```
 
-## Content
+## Editing content
 
-Page content lives in plain TypeScript modules under `data/` — edit these directly:
+The page text lives in `app/page.tsx`. Everything else is data:
 
-- `data/site.ts` — name, role, email, nav, social links, skills
-- `data/jobs.ts` — experience entries
-- `data/projects.ts` — project cards
-- `data/testimonials.ts` — recommendations
+- `data/site.ts` - name, email, skills
+- `data/jobs.ts` - jobs
+- `data/projects.ts` - projects
+- `data/testimonials.ts` - recommendations
 
-Blog posts are markdown files in `content/posts/`, with frontmatter:
+Blog posts are markdown in `content/posts/`:
 
 ```yaml
 ---
 title: Hello, world
 date: '2026-09-20'
-description: One-line summary.
+description: One line.
 draft: false
 ---
 ```
 
-Posts with `draft: true` are excluded from the build.
+Drafts do not get built.
 
-## Writing with the studio
+## Writing posts
 
-The studio is a rich-text (word-processor style) editor for blog posts. It is
-**development only** — the page and its route handlers are excluded from
-production builds via `pageExtensions` in `next.config.ts`, because a static
-export cannot serve route handlers. Nothing is exposed on the deployed site.
+There is an editor at http://localhost:3000/studio when the dev server is
+running. Type, hit Save, and it writes `content/posts/<slug>.md`. "Commit and
+push" commits and pushes `content/posts`.
 
-```sh
-npm run dev
-open http://localhost:3000/studio
-```
+The studio only exists in development. Its page and route handlers are left out
+of production builds by the `pageExtensions` setting in `next.config.ts`,
+because a static export has no server to run route handlers on.
 
-1. Type a title, then the body. Formatting buttons cover headings, bold,
-   italic, lists, quotes, code blocks, and dividers.
-2. **Save** writes `content/posts/<slug>.md`. Uncheck *draft* to make it
-   publishable.
-3. **Commit & push** commits `content/posts` and pushes the current branch.
+## Deploying
 
-Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds and
-publishes `out/` to the `gh-pages` branch.
-
-## Deployment
-
-GitHub Actions on every push to `main`: `npm ci` → `npm run build` → publish
-`out/` to `gh-pages` via `peaceiris/actions-gh-pages`.
+Pushing to `main` runs `.github/workflows/deploy.yml`, which builds and pushes
+`out/` to the `gh-pages` branch.
 
 ## Credit
 
-Versions 1–4 of this site were based on
-[bchiang7/v4](https://github.com/bchiang7/v4) by Brittany Chiang. This version
-is a ground-up rewrite and no longer shares code with it.
+Older versions of this site were built on
+[bchiang7/v4](https://github.com/bchiang7/v4). This one is written from
+scratch and shares no code with it.
 
 ## License
 
 MIT
-
-> Only pushes from `main` trigger a deploy; the studio says so after pushing
-> from any other branch.

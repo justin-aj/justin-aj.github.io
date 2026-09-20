@@ -8,14 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function StudioPage() {
-  return (
-    <>
-      <div className="mx-auto max-w-6xl px-6 pt-10">
-        <p className="font-mono text-xs tracking-[0.2em] uppercase" style={{ color: 'var(--muted)' }}>
-          Studio — local only
-        </p>
-      </div>
-      <StudioEditor />
-    </>
-  );
+  return <StudioEditor />;
 }

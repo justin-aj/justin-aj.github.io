@@ -4,41 +4,29 @@ import { getPosts, formatDate } from '@/lib/posts';
 
 export const metadata: Metadata = {
   title: 'Blog',
-  description: 'Writing on software engineering, machine learning and data.',
+  description: 'Notes on software, machine learning and data.',
 };
 
 export default function BlogIndex() {
   const posts = getPosts();
 
   return (
-    <div className="mx-auto max-w-3xl px-6 py-16">
-      <h1 className="text-3xl font-semibold tracking-tight">Blog</h1>
+    <>
+      <h1>Blog</h1>
 
       {posts.length === 0 ? (
-        <p className="mt-8 text-sm" style={{ color: 'var(--muted)' }}>
-          Nothing published yet.
-        </p>
+        <p>Nothing here yet.</p>
       ) : (
-        <ul className="mt-10 divide-y" style={{ borderColor: 'var(--line)' }}>
+        <ul>
           {posts.map(post => (
-            <li key={post.slug} className="py-6 first:pt-0">
-              <p className="font-mono text-xs" style={{ color: 'var(--muted)' }}>
-                {formatDate(post.date)}
-              </p>
-              <h2 className="mt-1 text-lg font-medium">
-                <Link href={`/blog/${post.slug}/`} className="underline underline-offset-4">
-                  {post.title}
-                </Link>
-              </h2>
-              {post.description && (
-                <p className="mt-2 text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>
-                  {post.description}
-                </p>
-              )}
+            <li key={post.slug}>
+              <Link href={`/blog/${post.slug}/`}>{post.title}</Link>
+              {post.date && <small> &middot; {formatDate(post.date)}</small>}
+              {post.description && <p>{post.description}</p>}
             </li>
           ))}
         </ul>
       )}
-    </div>
+    </>
   );
 }

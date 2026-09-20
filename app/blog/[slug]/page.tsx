@@ -29,20 +29,17 @@ export default async function PostPage({ params }: Params) {
   }
 
   return (
-    <article className="mx-auto max-w-3xl px-6 py-16">
-      <Link href="/blog/" className="font-mono text-xs underline underline-offset-4">
-        ← Blog
-      </Link>
-
-      <p className="mt-10 font-mono text-xs" style={{ color: 'var(--muted)' }}>
-        {formatDate(post.date)}
+    <article>
+      <h1>{post.title}</h1>
+      <p>
+        <small>{formatDate(post.date)}</small>
       </p>
-      <h1 className="mt-2 text-3xl leading-tight font-semibold tracking-tight">{post.title}</h1>
 
-      <div
-        className="prose prose-neutral dark:prose-invert mt-10 max-w-none prose-a:underline-offset-4"
-        dangerouslySetInnerHTML={{ __html: post.html }}
-      />
+      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+
+      <p>
+        <Link href="/blog/">Back to the blog</Link>
+      </p>
     </article>
   );
 }

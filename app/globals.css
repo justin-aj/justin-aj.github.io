@@ -1,0 +1,7 @@
+/* The only hand-written CSS on the site: a readable centred column
+   instead of full-bleed text. Everything else is browser defaults. */
+body {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1rem;
+}

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 import Link from 'next/link';
 import { site } from '@/data/site';
+import './globals.css';
 
 // 700 is included so headings and <strong> get a real bold face
 // rather than a synthesised one.

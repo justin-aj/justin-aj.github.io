@@ -8,7 +8,7 @@ https://justin-aj.github.io
 
 ## Running it
 
-Needs Node 20.9 or newer.
+Needs Node 20.9 or newer. CI builds on 24, the active LTS (see `.nvmrc`).
 
 ```sh
 npm install

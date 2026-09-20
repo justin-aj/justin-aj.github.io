@@ -136,7 +136,15 @@ export function StudioEditor() {
       setStatus(data.error ?? 'Publish failed');
       return;
     }
-    setStatus(data.pushed ? `Pushed to ${data.branch}. GitHub Actions is rebuilding.` : data.detail);
+    if (!data.pushed) {
+      setStatus(data.detail);
+      return;
+    }
+    setStatus(
+      data.deploys
+        ? `Pushed to ${data.branch}. GitHub Actions is rebuilding the site.`
+        : `Pushed to ${data.branch}. Only main deploys — merge it to publish.`,
+    );
   };
 
   const remove = async () => {

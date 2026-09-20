@@ -88,3 +88,6 @@ is a ground-up rewrite and no longer shares code with it.
 ## License
 
 MIT
+
+> Only pushes from `main` trigger a deploy; the studio says so after pushing
+> from any other branch.

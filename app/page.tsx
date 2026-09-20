@@ -54,11 +54,7 @@ export default function Home() {
               {job.range} &middot; {job.location}
             </small>
           </p>
-          <ul>
-            {job.points.map(point => (
-              <li key={point}>{point}</li>
-            ))}
-          </ul>
+          <p>{job.summary}</p>
         </div>
       ))}
 

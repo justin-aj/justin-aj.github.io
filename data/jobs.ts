@@ -10,13 +10,13 @@ export type Job = {
 // Ordered most recent first.
 export const jobs: Job[] = [
   {
-    company: 'Northeastern University',
+    company: 'DASH AI Lab, Northeastern University',
     title: 'AI Research Assistant',
     location: 'Boston, MA',
     range: 'January 2025 - Present',
     url: 'https://damore-mckim.northeastern.edu/dash/',
     summary:
-      'I started on financial NLP, building the Airflow pipeline that parses and structures filings for downstream models, then moving onto classification, benchmarking Gemini, Claude and GPT-4 against a fine-tuned RoBERTa on a ten-class problem. Now I work on multiple products at DASH, which include DASH API and AVA. DASH API is a platform that uses SLURM and Open OnDemand to run AI models and workloads on 4x Blackwell GPUs. AVA is a stealth AI product currently being used by real users.',
+      'I work on multiple products at DASH, which include DASH API and AVA. DASH API is a platform that uses SLURM and Open OnDemand to run AI models and workloads on 4x Blackwell GPUs. AVA is a stealth AI product currently being used by real users.',
   },
   {
     company: 'AARP',

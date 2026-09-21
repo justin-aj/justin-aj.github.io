@@ -17,7 +17,6 @@ export const metadata: Metadata = {
     description: site.description,
     url: site.url,
     siteName: site.name,
-    images: ['/og.png'],
     type: 'website',
   },
 };
@@ -47,6 +46,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer>
           <p>
             <a href={`mailto:${site.email}`}>{site.email}</a>
+          </p>
+          <p>
+            <small>
+              &copy; {new Date().getFullYear()} {site.name}. All rights reserved.
+            </small>
           </p>
         </footer>
       </body>

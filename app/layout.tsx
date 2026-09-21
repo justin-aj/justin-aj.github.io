@@ -45,9 +45,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <hr />
         <footer>
           <p>
-            <a href={`mailto:${site.email}`}>{site.email}</a>
-          </p>
-          <p>
             <small>
               &copy; {new Date().getFullYear()} {site.name}. All rights reserved.
             </small>

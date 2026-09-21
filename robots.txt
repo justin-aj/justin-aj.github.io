@@ -1,4 +1,4 @@
-User-agent: *
+User-Agent: *
 Allow: /
+
 Sitemap: https://justin-aj.github.io/sitemap.xml
-Host: https://justin-aj.github.io

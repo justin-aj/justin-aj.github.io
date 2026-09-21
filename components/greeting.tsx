@@ -37,8 +37,8 @@ export function Greeting() {
 
   return (
     <p>
-      {greeting} Welcome to my site! This is no AI zone. Contents here are written by me with my
-      English language grammar knowledge. Don&apos;t ask me about the website code.
+      {greeting} This is a no AI zone. Contents here are written by me with my
+      English language grammar knowledge.
     </p>
   );
 }

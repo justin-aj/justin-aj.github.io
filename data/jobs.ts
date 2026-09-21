@@ -10,13 +10,13 @@ export type Job = {
 // Ordered most recent first.
 export const jobs: Job[] = [
   {
-    company: 'DASH AI Lab',
-    title: 'Full-Stack AI Research Assistant',
+    company: 'Northeastern University',
+    title: 'AI Research Assistant',
     location: 'Boston, MA',
-    range: 'January 2026 - Present',
+    range: 'January 2025 - Present',
     url: 'https://damore-mckim.northeastern.edu/dash/',
     summary:
-      'I work on multiple products at DASH, which include DASH API and AVA. DASH API is a platform that uses SLURM and Open OnDemand to run AI models and workloads on 4x Blackwell GPUs. AVA is a stealth AI product currently being used by real users.',
+      'I started on financial NLP, building the Airflow pipeline that parses and structures filings for downstream models, then moving onto classification, benchmarking Gemini, Claude and GPT-4 against a fine-tuned RoBERTa on a ten-class problem. Now I work on multiple products at DASH, which include DASH API and AVA. DASH API is a platform that uses SLURM and Open OnDemand to run AI models and workloads on 4x Blackwell GPUs. AVA is a stealth AI product currently being used by real users.',
   },
   {
     company: 'AARP',
@@ -26,15 +26,6 @@ export const jobs: Job[] = [
     url: 'https://www.aarp.org/',
     summary:
       'I worked on the model that targets premium digital offers to members, a gradient boosting model over roughly three thousand features built from membership history, demographics and engagement. The other half of the role was a monitoring framework in Databricks that tracks AUC, KS and lift for the 25 or so models AARP runs in production.',
-  },
-  {
-    company: 'Northeastern University',
-    title: 'AI Research Assistant',
-    location: 'Boston, MA',
-    range: 'January 2025 - April 2025',
-    url: 'https://www.northeastern.edu/',
-    summary:
-      'Financial NLP. I built the Airflow pipeline that parses and structures filings for downstream models, then moved onto classification, benchmarking Gemini, Claude and GPT-4 against a fine-tuned RoBERTa on a ten-class problem.',
   },
   {
     company: 'Dynapac (Fayat Group)',

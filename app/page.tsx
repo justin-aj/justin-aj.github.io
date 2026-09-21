@@ -15,9 +15,7 @@ export default function Home() {
         <img src="/me.jpeg" alt="Ajin Frank Justin" width="180" height="180" />
       </p>
 
-      <p>
-        I use technology to solve problems and make life easier to live if possible. 
-      </p>
+  
       <p>
         I&apos;m in my last semester of Master of Science in Data Science at{' '}
         <a href="https://www.northeastern.edu/">Northeastern University, Boston</a>, and currently working as an AI Research Assistant at the{' '}
